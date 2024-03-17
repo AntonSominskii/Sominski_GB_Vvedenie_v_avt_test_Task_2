@@ -5,11 +5,11 @@ import org.junit.jupiter.api.BeforeEach;
 
 public abstract class AbstractComponentTest {
 
-    protected Portfolio portfolio;
+    protected Composite root;
 
     @BeforeEach
-    void setUp() {
-        portfolio = new Portfolio();
+    public void setUp() {
+        root = new Composite("Root");
         // Общая инициализация для всех тестов
     }
 

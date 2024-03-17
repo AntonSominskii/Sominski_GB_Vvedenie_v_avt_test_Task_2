@@ -16,16 +16,8 @@
         <surefire.version>2.22.2</surefire.version>
     </properties>
 
-    <!-- Архивирование -->
-    <packaging>jar</packaging>
-
-    <name>Демо проект</name>
-    <description>Демонстрационный проект для курса введения в автоматизацию</description>
-    <url>http://demo.max.org</url>
-
     <!-- Зависимости -->
     <dependencies>
-        <!-- Лекция 1.Зависимости junit -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
